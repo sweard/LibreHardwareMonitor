@@ -1386,6 +1386,10 @@ internal sealed class SuperIOHardware : Hardware
                         f.Add(new Fan("SYS Fan 1", 1));
                         f.Add(new Fan("SYS Fan 2", 2));
                         f.Add(new Fan("CPU_OPT", 3));
+                        c.Add(new Control("CPU", 0));
+                        c.Add(new Control("SYS Fan 1", 1));
+                        c.Add(new Control("SYS Fan 2", 2));
+                        c.Add(new Control("CPU_OPT", 3));
 
                     case Model.B360_AORUS_GAMING_3_WIFI_CF: // IT8688E
                         v.Add(new Voltage("Vcore", 0));
