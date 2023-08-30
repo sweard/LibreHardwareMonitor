@@ -387,6 +387,8 @@ internal class Identification
                 return Model.B560M_AORUS_PRO;
             case var _ when name.Equals("B560M AORUS PRO AX", StringComparison.OrdinalIgnoreCase):
                 return Model.B560M_AORUS_PRO_AX;
+            case var _ when name.Equals("B650E AORUS MASTER", StringComparison.OrdinalIgnoreCase):
+                return Model.B650E_AORUS_MASTER;    
             case var _ when name.Equals("ROG STRIX Z390-E GAMING", StringComparison.OrdinalIgnoreCase):
                 return Model.ROG_STRIX_Z390_E_GAMING;
             case var _ when name.Equals("ROG STRIX Z390-F GAMING", StringComparison.OrdinalIgnoreCase):
